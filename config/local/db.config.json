@@ -1,0 +1,8 @@
+{
+  "connectionLimit" : 100,
+  "host"     : "localhost",
+  "user"     : "root",
+  "password" : "root@123",
+  "database" : "test",
+  "debug"    :  false
+}

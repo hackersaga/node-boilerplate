@@ -1,0 +1,45 @@
+{
+  "name": "FreshService-ConnectWise",
+  "version": "0.0.1",
+  "description": "FreshService and ConnectWise integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Effy",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "btoa": "^1.2.1",
+    "connect-multiparty": "^2.1.0",
+    "connectwise-rest": "0.0.15",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.4.0",
+    "freshdesk-api": "^2.5.0",
+    "http": "0.0.0",
+    "kafka-node": "^2.3.0",
+    "lodash": "^4.17.4",
+    "mime": "^2.2.0",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "node-json-transform": "^1.0.16",
+    "nodemailer": "^4.6.7",
+    "request": "^2.87.0",
+    "underscore": "^1.9.1",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1",
+    "nodemon": "^1.14.11",
+    "should": "~4.1.0",
+    "supertest": "~0.14.0",
+    "async": "^2.0.1",
+    "bip39": "^2.3.0",
+    "bs58": "^4.0.0",
+    "cb-http-client": "^0.2.0",
+    "coinselect": "^3.1.1",
+    "dhttp": "^2.3.5"
+  }
+}
